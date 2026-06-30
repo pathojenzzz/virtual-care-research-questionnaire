@@ -460,18 +460,6 @@ function renderTlxB() {
   return section;
 }
 
-function makeSliderExample() {
-  const box = el("div", "example-box");
-  box.appendChild(el("strong", "", "Example on how to place the “X” above the scale point:"));
-  const track = el("div", "example-track");
-  for (let index = 0; index < 21; index += 1) {
-    track.appendChild(el("span", index % 2 === 0 ? "tick major" : "tick"));
-  }
-  track.appendChild(el("span", "example-x", "X"));
-  box.appendChild(track);
-  return box;
-}
-
 function labelsRow(left, right) {
   const labels = el("div", "slider-labels");
   labels.append(el("span", "", left), el("span", "", right));
