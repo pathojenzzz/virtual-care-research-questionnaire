@@ -339,7 +339,7 @@ function renderPartI() {
   section.append(
     el("p", "section-kicker", "Part I"),
     el("h2", "", "Part I: Personal Data"),
-    instruction("Instruction:", "Please enter the data needed or tick the box of what is applicable to you.")
+    instruction("Instruction:", "Please enter the data needed or what is applicable to you.")
   );
 
   const respondentCode = document.createElement("input");
@@ -383,8 +383,8 @@ function renderTlxA() {
     el("h2", "", "Part II: Task Load Index Questionnaire"),
     el("p", "adopted", "Adopted from Hart & Staveland"),
     el("h3", "", "Subpart A. SOURCES-OF-WORKLOAD COMPARISON"),
-    instruction("Instruction:", "For each pair of workload dimensions listed below, circle the one that contributed more to your workload during virtual nursing tasks. There are 15 pairs in total."),
-    el("p", "instruction", "Example: If you feel that Mental Demand affected your workload more than Physical Demand for that pair, circle “Mental Demand.”")
+    instruction("Instruction:", "For each pair of workload dimensions listed below, tick the one that contributed more to your workload during virtual nursing tasks. There are 15 pairs in total."),
+    el("p", "instruction", "Example: If you feel that Mental Demand affected your workload more than Physical Demand for that pair, tick “Mental Demand.”")
   );
 
   const list = el("div", "pair-list");
@@ -422,9 +422,9 @@ function renderTlxB() {
   section.append(
     el("p", "section-kicker", "Part II-B"),
     el("h2", "", "Part II: Task Load Index Questionnaire"),
-    el("p", "adopted", "Adopted from Hart & Staveland"),
+    el("p", "adapted", "Adapted from Hart & Staveland"),
     el("h3", "", "Subpart B. RATING SHEET"),
-    instruction("Instruction:", "Please indicate your experience by placing an “X” above the scale line at the point that best represents your perceived workload while performing virtual nursing tasks. Each scale ranges from Very Low (left) to Very High (right)."),
+    instruction("Instruction:", "Please indicate your experience by moving the slider to the point on the scale that best represents your perceived workload while performing virtual nursing tasks. Each scale ranges from Very Low on the left to Very High on the right. There are no right or wrong answers. Please choose the response that best reflects your personal experience."),
     makeSliderExample()
   );
 
@@ -484,8 +484,8 @@ function renderPss() {
   section.append(
     el("p", "section-kicker", "Part III"),
     el("h2", "", "Part III: Perceived Stress Scale (PSS-10) Questionnaire"),
-    el("p", "adopted", "Adopted from Cohen & Williamson"),
-    instruction("INSTRUCTION:", "The questions in this scale ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by placing an “X” over the circle representing HOW OFTEN you felt or thought a certain way."),
+    el("p", "adapted", "Adapted from Cohen & Williamson"),
+    instruction("INSTRUCTION:", "The questions in this scale ask you about your feelings and thoughts during THE LAST MONTH. For each item, please indicate your response by selecting the option that best represents HOW OFTEN you felt or thought a certain way."),
     instruction("NOTE:", "“The last month” refers to approximately the past 30 days of your work and personal life as a virtual nurse.", "note"),
     makeLegend(pssOptions, "(Harris et al., 2023)"),
     el("h3", "", "PERCEIVED STRESS SCALE (PSS-10) QUESTIONNAIRE"),
@@ -500,8 +500,8 @@ function renderJss() {
   section.append(
     el("p", "section-kicker", "Part IV"),
     el("h2", "", "Part IV: Job Satisfaction Questionnaire"),
-    el("p", "adopted", "Adopted from Spector"),
-    instruction("INSTRUCTION:", "Please circle the one number for each question that comes closest to reflecting your opinion about it."),
+    el("p", "adapted", "Adapted from Spector"),
+    instruction("INSTRUCTION:", "For each question, please select the response option that best reflects your opinion."),
     makeLegend(jssOptions, "(Pirino et al., 2023; Platania et al., 2021; Sapar & Oducado, 2021)"),
     el("h3", "", "JOB SATISFACTION SURVEY")
   );
