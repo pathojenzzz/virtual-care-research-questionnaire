@@ -425,7 +425,6 @@ function renderTlxB() {
     el("p", "adapted", "Adapted from Hart & Staveland"),
     el("h3", "", "Subpart B. RATING SHEET"),
     instruction("Instruction:", "Please indicate your experience by moving the slider to the point on the scale that best represents your perceived workload while performing virtual nursing tasks. Each scale ranges from Very Low on the left to Very High on the right. There are no right or wrong answers. Please choose the response that best reflects your personal experience."),
-    makeSliderExample()
   );
 
   const list = el("div", "slider-list");
