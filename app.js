@@ -31,7 +31,7 @@ const consentSections = [
   {
     heading: "What is the purpose of the study?",
     paragraphs: [
-      "The study aims to determine how you perceive your work tasks to be, how much stress you experience in relation to your work, and how satisfied you are with your job as a nurse working in a virtual care center."
+      "      	The study aims to determine how you perceive your work tasks to be, how much stress you experience in relation to your work, and how satisfied you are with your job as a nurse working in a virtual care center."
     ]
   },
   {
@@ -61,14 +61,14 @@ const consentSections = [
   {
     heading: "How will the survey be conducted?",
     paragraphs: [
-      "To gather data, the researchers will first seek permission from the selected virtual care centers in Iloilo City to conduct the study. Company supervisors and managers will only facilitate administrative coordination and access to the research site. They will not directly recruit employees, distribute study invitations, or collect informed consent forms. To minimize any perceived institutional pressure or fear of workplace retaliation, recruitment invitations will be delivered directly by the researchers or through neutral digital flyers. Employees who are interested in participating may contact the researchers directly and will be included only if they voluntarily agree to participate and meet the study's inclusion criteria.",
+      "To gather data, the researchers will first seek permission from the selected virtual care centers in Iloilo City to conduct the study. Company supervisors and managers will only facilitate administrative coordination and access to the research site. They will not directly recruit employees, distribute study invitations, or collect informed consent forms. To minimize any perceived institutional pressure or fear of workplace retaliation, recruitment invitations will be delivered directly by the researchers or through neutral digital flyers. Employees who are interested in participating may contact the researchers directly and will be included only if they voluntarily agree to participate and meet the study's inclusion criteria."
       "Before answering the survey, participants will be asked to sign an informed consent form. They will also be assigned an alphanumeric code (e.g., A1, B1, C1) that will be used instead of their names to maintain confidentiality. The researchers will then distribute the questionnaires, explain the instructions, and provide guidance while participants complete the survey. Participants may ask questions at any time if they need clarification or find any part of the questionnaire difficult to understand. If a participant is unavailable during the scheduled data collection, the researchers may return at another mutually convenient time. After all questionnaires have been collected, the data will be encoded and analyzed by the researchers."
     ]
   },
   {
     heading: "Are there any risks associated with this study?",
     paragraphs: [
-      "During the conduct of the study, the respondents may experience mild emotional or psychological discomfort when answering questions related to their professional stress, job frustration, and work-related experiences. Reflecting on these past and present experiences may prompt feelings of unease. However, these risks are considered minimal and are not expected to exceed those encountered in everyday professional life.",
+      "During the conduct of the study, the respondents may experience mild emotional or psychological discomfort when answering questions related to their professional stress, job frustration, and work-related experiences. Reflecting on these past and present experiences may prompt feelings of unease. However, these risks are considered minimal and are not expected to exceed those encountered in everyday professional life."
       "To minimize this, both researchers and the respondents will be reminded that participation is entirely voluntary and that there are no right or wrong answers. Moreover, the researchers and the research advisers, who are registered nurses, will be available during the conduct of the study for immediate assistance if the respondents would feel uncomfortable or distressed when answering the survey. All respondents will be given the opportunity to express their concerns and will be permitted to refuse completion of the survey during any time if they decided to."
     ]
   },
